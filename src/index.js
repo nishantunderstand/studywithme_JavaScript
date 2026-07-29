@@ -1,1 +1,3 @@
-console.log("Hi");
+require("./datatype.js");
+
+console.log("index");
