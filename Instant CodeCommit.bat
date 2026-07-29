@@ -30,7 +30,7 @@ REM Commit changes
 REM Push to remote
 "%gitPath%" push
 
-::start "" /max "C:\Program Files\Google\Chrome\Application\chrome.exe" "https://github.com/nishantunderstand?tab=repositories"
+start "" /max "C:\Program Files\Google\Chrome\Application\chrome.exe" "https://github.com/nishantunderstand?tab=repositories"
 
 echo ==== End ====
 exit
