@@ -1,8 +1,10 @@
+// console.log(" DAY-1 DataType   ======================");
+
 // Data Type
 
 // Primitive Data Type
 // 1. String
-// 2. Number 
+// 2. Number
 // 3. Boolean
 // 4. Undefined
 // 5. null
@@ -52,17 +54,17 @@
 
 // console.log("=========== Wednesday, July 29, 2026 4:28:54 PM ===========");
 // console.log("QUIZ ::=====> ");
-// console.log(typeof null); 
-// console.log(typeof typeof null); 
-// console.log(typeof typeof undefined); 
+// console.log(typeof null);
+// console.log(typeof typeof null);
+// console.log(typeof typeof undefined);
 
 // console.log("=========== Wednesday, July 29, 2026 4:33:43 PM ===========");
 // console.log("=========== Implicit Type Coercion ===========");
-// var a = 2; //Number 
-// var b = "2"; // String 
+// var a = 2; //Number
+// var b = "2"; // String
 // // Value Comparision ==
-// // Reference Comparision === 
-// console.log(a == b); 
+// // Reference Comparision ===
+// console.log(a == b);
 // console.log(b == a);
 // console.log("=========== String and Number Coercion Rule(==)  ===========");
 // console.log("=========== String and Number (===)  ===========");
@@ -102,7 +104,7 @@
 
 // console.log("Quiz==>");
 
-// a = 8 + "8"; 
+// a = 8 + "8";
 // console.log(a);
 
 
@@ -124,7 +126,7 @@
 
 // console.log("=========== Thursday, August 13, 2026 2:31:28 PM ===========");
 
-// console.log(false == '0'); 
+// console.log(false == '0');
 // console.log(false === '0')
 
 
@@ -152,22 +154,81 @@
 
 
 // var b = [1,2,3,4,"A",null,'nAn',"Hello",true];
-// b[99]=1; 
-// console.log(b); 
-// // undefined 
+// b[99]=1;
+// console.log(b);
+// // undefined
 
 
-console.log("=========== Thursday, August 13, 2026 3:05:49 PM ===========");
+//console.log("=========== Thursday, August 13, 2026 3:05:49 PM ===========");
 
-var a = [1, 2, 3];
-var b = a;
+// var a = [1, 2, 3,4];
+// var b = a;
 
-console.log(a.length);
+// console.log(a.length);
 
-// Pass By Value 
+// Java Name
+// Pass By Value
 // Pass By Reference
 
-console.log(a);
-console.log(b);
+// By Assigment | Java Script
 
+// console.log(a);
+// console.log(b);
+
+
+// var a = [1, 2, 3,4];
+// var b = a;
+
+// b[2]=5;
+// b[50]=5;
+
+// console.log(a);
+// console.log(b);
+
+
+//console.log("=========== Thursday, August 13, 2026 3:10:38 PM ===========");
+// var a = [1, 2, 3,4];
+// var b = a;
+
+// b=[];
+// console.log(a);
+// console.log(b);
+
+// console.log("=========== Thursday, August 13, 2026 3:10:43 PM ===========");
+// console.log(" Interview Question  ======================");
+// var a = [1, 2, 3,4];
+// var b = a;
+
+// a=[];
+// console.log(a);
+// console.log(b);
+
+
+
+// console.log("=========== Thursday, August 13, 2026 3:19:18 PM ===========");
+
+// var a = [1, 2, 3,4];
+// var b = a;
+
+// a.length = 0;
+// Will it be Garbage Collected or not ??
+// console.log(a);
+// console.log(b);
+
+// console.log("=========== Thursday, August 13, 2026 4:37:18 PM ===========");
+
+// // Will it be Garbage Collected or not ??
+// var d = [1,2,3];
+// d = [];
+
+// console.log(d);
+
+// var dog = ["a", "b", "c"];
+// console.log("Before: " + dog);
+// dog.length = 1;
+// console.log("After: " + dog);
+
+
+
+// Does JS Follow OOPS ? Properly ???
 
